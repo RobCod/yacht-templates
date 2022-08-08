@@ -2,7 +2,7 @@
   "type": 1,
   "title": "Pterodactyl Panel",
   "name": "pterodactyl",
-  "description": "Pterodactyl, a free an open source agnostic game panel... In a Container! On Yacht!",
+  "description": "Pterodactyl, a free an open source agnostic game panel... In a Container! On Yacht no less!",
   "logo": "https://raw.githubusercontent.com/RobCod/yacht-templates/master/Images/pterodactyl-small.png",
   "image": "ccarney16/pterodactyl-panel:latest",
   "note": "",
