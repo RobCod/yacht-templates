@@ -12,8 +12,7 @@
   "platform": "linux",
   "restart_policy": "unless-stopped",
   "ports": [
-    "WebUI HTTP:8085/tcp",
-    "WebUI HTTPS:8086/tcp"
+    "WebUI": "8085:8085/tcp"
   ],
   "network_mode": "bridge",
   "volumes": [
