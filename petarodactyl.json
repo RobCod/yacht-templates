@@ -20,7 +20,7 @@
   "volumes": [
     {
       "container": "/pterodactyl",
-      "bind": ""
+      "bind": "!data"
     }
   ],
   "env": [
