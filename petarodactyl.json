@@ -21,7 +21,7 @@
   "volumes": [
     {
       "container": "/pterodactyl",
-      "bind": "!movies"
+      "bind": "!data"
     }
   ],
   "env": [
