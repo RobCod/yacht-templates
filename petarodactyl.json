@@ -12,8 +12,9 @@
   "platform": "linux",
   "restart_policy": "unless-stopped",
   "ports": [
-    {
-      "WebUI": "9000:9000/tcp"
+    { 
+      "WebUI": "80/tcp",
+      "HTTPS WebUI": "443/tcp"
     }
   ],
   "network_mode": "bridge",
