@@ -13,13 +13,13 @@
   "restart_policy": "unless-stopped",
   "ports": [
     {
-    "WebUI": "8085:8085/tcp"
+      "WebUI": "8085:8085/tcp"
     }
   ],
   "network_mode": "bridge",
   "volumes": [
     {
-      "container": "/yacht/pterodactyl",
+      "container": "/pterodactyl",
       "bind": ""
     }
   ],
