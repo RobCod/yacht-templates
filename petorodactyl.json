@@ -1,0 +1,47 @@
+{
+  "type": 1,
+  "title": "Pterodactyl Panel",
+  "name": "pterodactyl",
+  "description": "Pterodactyl, a free an open source agnostic game panel... In a Container! On Yacht!",
+  "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/transmission-icon.png",
+  "image": "ccarney16/pterodactyl-panel:latest",
+  "note": "",
+  "categories": [
+    "Other"
+  ],
+  "platform": "linux",
+  "restart_policy": "unless-stopped",
+  "ports": [
+    "WebUI HTTP:8085/tcp",
+    "WebUI HTTPS:8086/tcp"
+  ],
+  "network_mode": "bridge",
+  "volumes": [
+    {
+      "container": "/yacht/pterodactyl",
+      "bind": ""
+    }
+  ],
+  "env": [
+    {
+        "name": "PUID",
+        "label": "PUID",
+        "default": "!PUID"
+      },
+      {
+        "name": "USER_NAME",
+        "label": "USER_NAME",
+        "default": "admin"
+      },
+      {
+        "name": "USER_PASSWORD",
+        "label": "USER_PASSWORD",
+        "default": "admin"
+      },
+      {
+        "name": "PGID",
+        "label": "PGID",
+        "default": "!PGID"
+      }
+  ]
+}
