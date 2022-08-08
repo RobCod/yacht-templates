@@ -13,7 +13,7 @@
   "restart_policy": "unless-stopped",
   "ports": [
     {
-      "WebUI": "8085:8085/tcp"
+      "WebUI": "9000:9000/tcp"
     }
   ],
   "network_mode": "bridge",
